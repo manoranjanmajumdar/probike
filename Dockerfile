@@ -24,4 +24,4 @@ EXPOSE 8000
 CMD ["python", "app.py"]
 
 # nginx-server
-CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+#CMD ["/usr/sbin/nginx", "-g", "daemon off;"]#
